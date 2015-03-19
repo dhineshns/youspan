@@ -3,6 +3,8 @@
 <head>
 	<title>{{ title }}</title>
 	<link rel='stylesheet' href='/stylesheets/style.css' />
+		<link rel='stylesheet' href='/stylesheets/custom.css' />
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -10,7 +12,7 @@
 
 </head>
 <body>
-	<div class=" vertical-center" style="  min-height: 100%;  min-height: 100vh;   display: flex;align-items: center;">
+	<div class=" vertical-center" >
 
 	<div class='container text-center'>
 
