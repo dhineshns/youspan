@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
-  </body>
+<head>
+	<title>{{ title }}</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class='container text-center'>
+		<div class='col-md-12'>
+			<div class='jumbotron'>
+				<h1><a style="text-decoration: none; color: #424212"href="/">{{ title }}</a></h1>
+				<h2>{{subtitle}}</h2>
+			</div>
+		</div>
+		<div class='row social' >
+			<a href="http://github.com/dhineshns">
+				<div class='col-md-3 well'>
+					<i class='fa fa-github fa-4x'></i>
+					<h2>GitHub</h2>
+				</div>
+			</a>
+			<a href="http://facebook.com/dhineshns">
+				<div class='col-md-3 well'>
+					<i class='fa fa-facebook fa-4x'></i>
+					<H2>Facebook</H2>
+				</div>
+			</a>
+			<a href="http://twitter.com/dhineshns">
+				<div class='col-md-3 well'>
+					<i class='fa fa-twitter fa-4x'></i>
+
+					<H2>Twitter</H2>
+				</div>
+			</a>
+			<a href="http://linkedin.com/in/dhineshns">
+				<div class='col-md-3 well'>
+					<i class='fa fa-linkedin fa-4x'></i>
+					<H2>LinkedIn</H2>
+				</div>
+			</a>
+
+		</div>
+
+	</div>
+
+</body>
 </html>
