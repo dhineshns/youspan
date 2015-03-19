@@ -10,7 +10,7 @@
 
 </head>
 <body>
-	<div class=" vertical-center">
+	<div class=" vertical-center" style="  min-height: 100%;  min-height: 100vh;   display: flex;align-items: center;">
 
 	<div class='container text-center'>
 
