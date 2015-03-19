@@ -50,7 +50,7 @@
 				</a>
 
 			</div>
-			<a href="mailto:dhineshns@gmail.com?Subject=Hello%20there...">
+			<a href="mailto:dhineshns@gmail.com?Subject=Hello%20there">
 				<button class="btn-success btn-lg" >Say Hello</button>
 			</a>		
 		</div>
