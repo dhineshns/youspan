@@ -3,7 +3,7 @@
 <head>
 	<title>{{ title }}</title>
 	<link rel='stylesheet' href='/stylesheets/style.css' />
-		<link rel='stylesheet' href='/stylesheets/custom.css' />
+	<link rel='stylesheet' href='/stylesheets/custom.css' />
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
@@ -14,7 +14,7 @@
 <body>
 	<div class=" vertical-center" >
 
-	<div class='container text-center'>
+		<div class='container text-center'>
 
 			<div class='col-md-12 '>
 				<div class='jumbotron'>
@@ -50,6 +50,9 @@
 				</a>
 
 			</div>
+			<a href="mailto:dhineshns@gmail.com?Subject=Hello%20there...">
+				<button class="btn-success btn-lg" >Say Hello</button>
+			</a>		
 		</div>
 	</div>
 
