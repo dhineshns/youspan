@@ -8,6 +8,7 @@
 body {
   background-image: url('/images/technical.jpg');
   background-attachment: fixed;
+  background-size: cover;
   min-height: 400px;
   margin-top: 0px;
   margin-bottom: 8px;
