@@ -5,3 +5,18 @@
   display: flex;
   align-items: center;
 }
+body {
+  background-image: url('/images/technical.jpg');
+  background-attachment: fixed;
+  min-height: 400px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  background-repeat: no-repeat;
+}
+.jumbotron{
+	opacity: 0.9;
+}
+
+.social{
+	opacity: 0.9;
+}
